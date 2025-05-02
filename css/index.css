@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	background-attachment: fixed;
+	background-image: url(../imagens/bg.jpg);
+	background-repeat: repeat;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+/*h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}*/
+p {
+	margin-bottom: 1.1em;
+	margin-top: 10px;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+	font-weight: normal;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+#main {
+	margin: 0 auto;
+	width: 1000px;
+	z-index:0;
+}
+#banner_principal {
+	clear: both;
+	float: left;
+	height: 200px;
+	width: 998px;
+	background-image:url(../imagens/bg_header.jpg);
+	background-position:center;
+}
+#banner_image {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 160px;
+	margin-bottom: 0;
+	width: 998px;
+	background-color: #03F;
+}
+#menu {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0px;
+	background-color: #ffffff;
+	width: 998px;
+	padding-top: 0px;
+	height: 20px;
+}
+html > body #menu {
+	height: auto;
+	min-height: 30px;
+}
+.fixar {
+    position:fixed;
+    margin-top: 0px !important;
+}
+
+#redes_sociais {
+	display: inline;
+	float: left;
+	width: 25px;
+	height: auto;
+	z-index:10;
+	position:fixed;
+	top:20%;
+	left:10px;
+}
+html > body #redes_sociais {
+	height: auto;
+	min-height: 25px;
+}
+
+#slide_show {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 1000px;
+	height: 280px;
+}
+html > body #slide_show {
+	height: auto;
+	min-height: 280px;
+}
+
+.txt_principal {
+	font-family: 'francophilsansregular';
+	font-size: 150%;
+	text-align: justify;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 135px;
+	margin-top: 20px;
+	display: inline;
+	float: left;
+	margin-bottom: 10px;
+	width: 729px;
+}
+
+.txt_contato {
+	font-family: 'francophilsansregular';
+	font-size: 150%;
+	text-align: justify;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 135px;
+	margin-top: 30px;
+	display: inline;
+	float: left;
+	margin-bottom: 20px;
+	width: 729px;
+}
+
+#txt_videos {
+	font-family: 'francophilsansregular';
+	font-size: 150%;
+	text-align: justify;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 135px;
+	margin-top: 30px;
+	display: inline;
+	float: left;
+	margin-bottom: 20px;
+	width: 729px;
+}
+
+.txt_release {
+	font-family: 'francophilsansregular';
+	font-size: 150%;
+	text-align: justify;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 135px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	margin-bottom: 20px;
+	width: 729px;
+}
+
+.Txt_Local {
+	font-family: 'francophilsansregular';
+	font-size: 130%;
+	text-align: center;
+	float:left;
+	color: #FFC;
+	line-height: 100%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	display: inline;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	margin-left: 22px;
+	width: 950px;
+}
+
+#rodape {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	background-color: #333;
+	width: 998px;
+	padding-top: 0px;
+	height: 39px;
+}
+html > body #rodape {
+	height: auto;
+	min-height: 40px;
+}
+
+#rodape2 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0px;
+	background-color: #000;
+	width: 998px;
+	padding-top: 0px;
+	height: 44px;
+}
+html > body #rodape2 {
+	height: auto;
+	min-height: 45px;
+}
+.Txt_Rua {
+	font-family: 'francophilsansregular';
+	font-size: 130%;
+	text-align: center;
+	margin-left: 4px;
+	margin-top: 4px;
+	color: #fff;
+	line-height: 130%;
+	padding-bottom: 9px;
+	padding-top:0px;
+	display: inline;
+	float: left;
+	width: 980px;
+}
+
+#conteudo_principal {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 998px;
+	padding-top: 0px;
+	min-height:549px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	background-color:#FFF;
+}
+
+html > body #conteudo_principal {
+	height: auto;
+	min-height: 550px;
+}
+
+#conteudo_contato {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 998px;
+	padding-top: 0px;
+	height: 549px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	background-color:#FFF;
+}
+
+html > body #conteudo_contato {
+	height: auto;
+	min-height: 550px;
+}
+
+#conteudo_release {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	background-color: #FFF;
+	width: 998px;
+	padding-top: 0px;
+	height: 549px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+html > body #conteudo_release {
+	height: auto;
+	min-height: 550px;
+}
+
+#conteudo_ficha_tecnica {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 998px;
+	padding-top: 0px;
+	height: 549px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	background-color:#FFF;
+}
+
+html > body #conteudo_ficha_tecnica {
+	height: auto;
+	min-height: 550px;
+}
+
+#conteudo_vai_a_feira {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 998px;
+	padding-top: 0px;
+	height: 649px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	background-color:#FFF;
+}
+
+html > body #conteudo_vai_a_feira {
+	height: auto;
+	min-height: 650px;
+}
+
+.txt_titulo {
+	font-family: 'francophilsansregular';
+	font-size: 220%;
+	text-align: center;
+	color: #009;
+	line-height: 60%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-left: 180px;
+	margin-top: 20px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 650px;
+}
+
+#emconstrucao {
+	margin-left: 200px;
+	margin-top: 40px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 325px;
+	height: 195px;
+}
+
+#topo1 {
+	border: 1px solid #000;
+	height: 100%;
+	width: 998px;
+	clear: both;
+	float: left;
+}
+#footer {
+	height: 100%;
+	width: 998px;
+	clear: both;
+	float: left;
+}
+
+#barra {
+	background-color: #ffffff;
+	height: 1px;
+	width: 100px;
+	margin-left:430px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+@font-face {
+    font-family: 'francophilsansbold';
+    src: url('../fontes/francophilsans-bold-webfont.eot');
+    src: url('../fontes/francophilsans-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('../fontes/francophilsans-bold-webfont.woff2') format('woff2'),
+         url('../fontes/francophilsans-bold-webfont.woff') format('woff'),
+         url('../fontes/francophilsans-bold-webfont.ttf') format('truetype'),
+         url('../fontes/francophilsans-bold-webfont.svg#francophilsansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'francophilsansregular';
+    src: url('../fontes/francophilsans-webfont.eot');
+    src: url('../fontes/francophilsans-webfont.eot#iefix') format('embedded-opentype'),
+         url('../fontes/francophilsans-webfont.woff2') format('woff2'),
+         url('../fontes/francophilsans-webfont.woff') format('woff'),
+         url('../fontes/francophilsans-webfont.ttf') format('truetype'),
+         url('../fontes/francophilsans-webfont.svg#francophilsansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#google_maps{
+	margin-left:-55px;
+	margin-top:50px;
+	margin-bottom:15px;
+}
+
+#videos{
+	margin-left:-5%;
+}
+
+.box_video{
+	float: left;
+  	width: auto;
+ 	height: auto;
+  	/*margin-left: 50px;*/
+  	margin-top: 10px;
+  	margin-right: 0px;
+  	margin-bottom: 10px;
+}
+
+.txt_videos {
+  float: right;
+  width: 290px;
+  height: auto;
+  margin-left:15px;
+  /*font-family: 'Myriad Pro',Tahoma, Geneva, sans-serif;
+  font-size: 115%;
+  font-weight: normal;*/
+  text-align: justify;
+  color: #000000;
+}
+
+.vai_feira{margin:25px 0px 10px 200px;}
